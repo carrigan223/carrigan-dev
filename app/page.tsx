@@ -27,20 +27,14 @@ export default function Home() {
   }, []);
   return (
     <main className="flex flex-col items-center justify-center w-full h-full">
-      <Card
-        style={{
-          background:
-            "linear-gradient(150deg, #0a0a0a 80%, rgb(44, 255, 255)120%)",
-        }}
-        className="flex items-center justify-center w-1/2 h-full py-4 border-2 rounded-lg shadow-md shadow-slate-400"
-      >
-        <CardHeader className="flex items-center justify-center w-3/4 text-2xl text-black bg-white rounded shadow-md shadow-white">
+      <Card className="flex items-center justify-center w-3/4 h-full border-2 border-teal-700 rounded-lg shadow-md shadow-slate-400">
+        <CardHeader className="flex items-center justify-center w-full text-2xl bg-black rounded shadow-md shadow-white">
           <p className={jos.className}>
             Please be patient, this is a work in progress.
           </p>
         </CardHeader>
         <CardBody className="flex items-center justify-center w-full h-full hpy-2">
-          <div className="border rounded-lg shadow-md shadow-white w-max">
+          <div className="border rounded-lg shadow-md shadow-white">
             <Image
               src="/constuctionemoji.jpeg"
               alt="construction emoji"
