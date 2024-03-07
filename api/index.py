@@ -1,7 +1,7 @@
 from fastapi import FastAPI
+from .routers import test
 
 app = FastAPI()
 
-@app.get("/api/python")
-def hello_world():
-    return {"message": "Hello Andrew, from Python!"}
+
+app.include_router(test.router)
