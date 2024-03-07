@@ -2,5 +2,6 @@
   "workbench.colorTheme": "One Monokai Python",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "cSpell.words": ["Carrigan"]
 }
