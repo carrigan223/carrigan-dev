@@ -39,4 +39,5 @@ next-env.d.ts
 *.pyo
 *.pyd
 /api/__pycache__/
+/api/routers/__pycache__/
 
