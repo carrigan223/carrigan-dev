@@ -38,4 +38,5 @@ next-env.d.ts
 *.pyc
 *.pyo
 *.pyd
+/api/__pycache__/
 
