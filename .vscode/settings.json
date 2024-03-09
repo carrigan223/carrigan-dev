@@ -3,5 +3,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
-  "cSpell.words": ["Carrigan"]
+  "cSpell.words": ["Carrigan", "fastapi"]
 }
