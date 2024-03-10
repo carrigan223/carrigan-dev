@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from .routers import test
+from .routers.user import user as user_router
 from .models import to_do
 from .models import user
 from .database import SessionLocal, engine
@@ -22,3 +23,4 @@ def get_db():
 
 
 app.include_router(test.router)
+app.include_router(user_router.router)
