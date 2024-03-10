@@ -22,5 +22,4 @@ class User(Base):
     updated_at = Column(String, index=True)
     deleted_at = Column(String, index=True)  
     
-    to_dos = relationship("ToDo", back_populates="owner")
 

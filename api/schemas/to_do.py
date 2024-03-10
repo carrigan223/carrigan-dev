@@ -16,6 +16,7 @@ class ToDoBase(BaseModel):
     
 class ToDoCreate(ToDoBase):
     pass
+    
 
 class ToDo(ToDoBase):
     id: int
