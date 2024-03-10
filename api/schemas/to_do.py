@@ -12,7 +12,6 @@ class ToDoBase(BaseModel):
     started: bool
     notes: str
     status: str
-    owner_id: int
     
 class ToDoCreate(ToDoBase):
     pass
@@ -29,7 +28,6 @@ class ToDo(ToDoBase):
     started: bool
     notes: str
     status: str
-    owner_id: int
     
     class Config:
         orm_mode = True

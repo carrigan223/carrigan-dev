@@ -1,6 +1,7 @@
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from ..database import Base
+from ..schemas.to_do import ToDo as ToDoSchema
 
 
 class ToDo(Base):
@@ -17,6 +18,9 @@ class ToDo(Base):
     started = Column(Boolean, default=False)
     notes = Column(String, index=True)
     status = Column(String, index=True)
+    
+   
+
     
     
     

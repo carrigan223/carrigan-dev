@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from models.to_do import ToDo
+from ..models.to_do import ToDo
 
 class UserBase(BaseModel):
     username: str
@@ -22,7 +22,7 @@ class UserCreate(UserBase):
 class User(UserBase):
     id: int
     is_active: bool
-    to_dos: list[ToDo] = []
+    # to_dos: list[ToDo] = []
     
     class Config:
         orm_mode = True

@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from .routers import test
 from .routers.user import user as user_router
 from .models import to_do
@@ -21,6 +21,6 @@ def get_db():
     finally:
         db.close()
 
-
+# Include routers
 app.include_router(test.router)
 app.include_router(user_router.router)
