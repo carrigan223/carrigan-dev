@@ -13,13 +13,7 @@ to_do.Base.metadata.create_all(bind=engine)
 # Start FastAPI
 app = FastAPI()
 
-# Dependency
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+
 
 # Include routers
 app.include_router(test.router)

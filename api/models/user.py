@@ -20,6 +20,10 @@ class User(Base):
     zip_code = Column(String, index=True)
     created_at = Column(String, index=True)
     updated_at = Column(String, index=True)
-    deleted_at = Column(String, index=True)  
+    deleted_at = Column(String, index=True)
+    
+    
+    def combine_city_and_state(self):
+        return self.city + ", " + self.state
     
 

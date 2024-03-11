@@ -262,11 +262,20 @@
         "documentation": {}
     },
     {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "api.routers.user.user",
+        "description": "api.routers.user.user",
+        "peekOfCode": "def create_user( user: UserCreate, db: Session = Depends(get_db)):\n    user.password = user.password + \"notreallyhashed\"\n    db_user = User(\n        username=user.username,\n        email=user.email, \n        hashed_password=user.password, \n        phone=user.phone, \n        uuid=user.uuid, \n        street_address=user.street_address, \n        apt=user.apt, ",
+        "detail": "api.routers.user.user",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "kind": 5,
         "importPath": "api.routers.user.user",
         "description": "api.routers.user.user",
-        "peekOfCode": "router = APIRouter()\n# @router.post(\"/api/user\")\n# def create_user( user: UserCreate,db: Session = Depends(get_db)):\n#     fake_hashed_password = user.password + \"notreallyhashed\"\n#     db_user = User(user)\n#     db.add(db_user)\n#     db.commit()\n#     db.refresh(db_user)\n#     return db_user",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/api/user\")\ndef create_user( user: UserCreate, db: Session = Depends(get_db)):\n    user.password = user.password + \"notreallyhashed\"\n    db_user = User(\n        username=user.username,\n        email=user.email, \n        hashed_password=user.password, \n        phone=user.phone, \n        uuid=user.uuid, ",
         "detail": "api.routers.user.user",
         "documentation": {}
     },
@@ -352,11 +361,20 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "api.database",
+        "description": "api.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "api.database",
+        "documentation": {}
+    },
+    {
         "label": "DB_URL",
         "kind": 5,
         "importPath": "api.database",
         "description": "api.database",
-        "peekOfCode": "DB_URL = \"postgresql://postgres:BFC54da-bAD-D2A2a5gebD3b6faGf6b4@viaduct.proxy.rlwy.net:55389/railway\"\nprint(DB_URL)\nengine = create_engine(DB_URL, echo=True)\nprint(engine)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\nprint(SessionLocal)",
+        "peekOfCode": "DB_URL = \"postgresql://postgres:BFC54da-bAD-D2A2a5gebD3b6faGf6b4@viaduct.proxy.rlwy.net:55389/railway\"\nengine = create_engine(DB_URL, echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "api.database",
         "documentation": {}
     },
@@ -365,7 +383,7 @@
         "kind": 5,
         "importPath": "api.database",
         "description": "api.database",
-        "peekOfCode": "engine = create_engine(DB_URL, echo=True)\nprint(engine)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\nprint(SessionLocal)",
+        "peekOfCode": "engine = create_engine(DB_URL, echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "api.database",
         "documentation": {}
     },
@@ -374,7 +392,7 @@
         "kind": 5,
         "importPath": "api.database",
         "description": "api.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\nprint(SessionLocal)",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "api.database",
         "documentation": {}
     },
@@ -383,17 +401,8 @@
         "kind": 5,
         "importPath": "api.database",
         "description": "api.database",
-        "peekOfCode": "Base = declarative_base()\nprint(SessionLocal)",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "api.database",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "kind": 2,
-        "importPath": "api.index",
-        "description": "api.index",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
-        "detail": "api.index",
         "documentation": {}
     },
     {
@@ -401,7 +410,7 @@
         "kind": 5,
         "importPath": "api.index",
         "description": "api.index",
-        "peekOfCode": "app = FastAPI()\n# Dependency\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n# Include routers\napp.include_router(test.router)",
+        "peekOfCode": "app = FastAPI()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
         "detail": "api.index",
         "documentation": {}
     }
