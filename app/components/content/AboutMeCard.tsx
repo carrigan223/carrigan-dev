@@ -7,7 +7,7 @@ type Props = {};
 const AboutMeCard = (props: Props) => {
   return (
     <Card className="w-5/6 p-2 text-lg tracking-widest bg-transparent border-2 border-gray-300 shadow sm:mx-auto sm:w-1/2 shadow-slate-400 drop-shadow-lg">
-      <Fade cascade triggerOnce duration={3000}>
+      <Fade cascade triggerOnce duration={1700}>
         <CardBody>
           Welcome! I&apos;m Andrew Carrigan, a Software Engineer based in San
           Diego, with a passion for crafting innovative solutions at the

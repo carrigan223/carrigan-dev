@@ -8,13 +8,13 @@ const JobTitleSubHeader = ({ jobTitle }: Props) => {
   const titleToDisplay = jobTitleArray.splice(3, jobTitleArray.length - 3);
 
   return (
-    <div className="flex flex-col px-6 mt-2 mb-4">
+    <div className="flex flex-col items-center px-6 mt-2 mb-4">
       {jobTitleArray.map((word, index) => {
-        const classNameString = "underline ml-" + index * 6;
+        const classNameString = "underline ";
         return (
           <Fade direction="right" key={index} triggerOnce>
             {/* <AttentionSeeker effect="tada"> */}
-              <h2 className={classNameString}>{word}</h2>
+            <h2 className={classNameString}>{word}</h2>
             {/* </AttentionSeeker> */}
           </Fade>
         );
