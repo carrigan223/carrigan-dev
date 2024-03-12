@@ -16,7 +16,7 @@ const MainTitleName = ({ firstName, lastName }: Props) => {
   }, []);
   return (
     <div className="flex flex-col w-max">
-      <AttentionSeeker effect="flash" triggerOnce delay={1300}>
+      <AttentionSeeker effect="tada" triggerOnce delay={1300}>
         <Fade direction="left" triggerOnce duration={1200}>
           <h1
             style={{
