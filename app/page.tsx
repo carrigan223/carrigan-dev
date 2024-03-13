@@ -28,7 +28,7 @@ export default function Home() {
   }, []);
   return (
     <main className="flex flex-col w-full h-full">
-      <div className="h-full sm:flex">
+      <div className="flex flex-col sm:flex-row">
         <div className="flex items-center justify-center h-full px-6 border-b-2 sm:border-r-2">
           <MainTitleName firstName="Andrew" lastName="Carrigan" />
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
           <JobTitleSubHeader jobTitle="Full Stack Developer" />
         </div>
       </div>
-      <div className="flex flex-col h-full md:flex-row">
+      <div className="flex flex-col md:flex-row">
         <AboutMeCard />
         {/* <div className="w-full">Skills</div> */}
       </div>
