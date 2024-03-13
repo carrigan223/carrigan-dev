@@ -6,10 +6,11 @@ type Props = {};
 
 const AboutMeCard = (props: Props) => {
   return (
-    <Card className="w-5/6 p-2 text-lg tracking-widest bg-transparent border-2 border-gray-300 shadow sm:mx-auto sm:w-1/2 shadow-slate-400 drop-shadow-lg"
-    style={{
-      textShadow: "6px 6px 8px #39cbcb5e",
-    }}
+    <Card
+      className="w-full h-full p-4 bg-transparent md:text-xl "
+      style={{
+        textShadow: "6px 6px 8px #39cbcb5e",
+      }}
     >
       <Fade cascade triggerOnce duration={1700}>
         <CardBody>

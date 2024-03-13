@@ -28,12 +28,17 @@ export default function Home() {
   }, []);
   return (
     <main className="flex flex-col w-full h-full">
-      <div className="px-4 sm:flex">
-        <MainTitleName firstName="Andrew" lastName="Carrigan" />
-        <JobTitleSubHeader jobTitle="Full Stack Developer" />
+      <div className="h-full sm:flex">
+        <div className="flex items-center justify-center h-full px-6 border-b-2 sm:border-r-2">
+          <MainTitleName firstName="Andrew" lastName="Carrigan" />
+        </div>
+        <div className="flex items-center justify-center w-full border-b-2">
+          <JobTitleSubHeader jobTitle="Full Stack Developer" />
+        </div>
       </div>
-      <div className="flex items-center justify-center w-full">
+      <div className="flex flex-col h-full md:flex-row">
         <AboutMeCard />
+        {/* <div className="w-full">Skills</div> */}
       </div>
     </main>
   );
