@@ -11,6 +11,7 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
+import StyledNavLink from "./StyledNavLink";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -19,12 +20,12 @@ const Navigation = () => {
   const navString = isLoggedIn ? "Logout" : "Login";
 
   const menuItems = [
-    "Home",
-    "Projects",
-    "About",
-    "Contact Me",
-    "Blog",
-    navString,
+    { displayText: "Home", href: "#" },
+    { displayText: "Projects", href: "#" },
+    { displayText: "About", href: "#" },
+    { displayText: "Contact Me", href: "#" },
+    { displayText: "Blog", href: "#" },
+    { displayText: navString, href: "#" },
   ];
 
   return (
@@ -63,31 +64,13 @@ const Navigation = () => {
         className="justify-around hidden w-full text-lg lg:gap-32 border-x-2 sm:flex sm:gap-4 md:gap-16"
         justify="center"
       >
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Projects
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Contact Me
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Blog
-          </Link>
-        </NavbarItem>
+        {menuItems.map((item, index) => (
+          <StyledNavLink
+            key={`${item.displayText}-${index}`}
+            displayText={item.displayText}
+            href={item.href}
+          />
+        ))}
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
@@ -108,7 +91,7 @@ const Navigation = () => {
       </NavbarContent>
       <NavbarMenu className="border-t-2">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item.displayText}-${index}`}>
             <Link
               color={
                 index === 2
@@ -118,10 +101,10 @@ const Navigation = () => {
                   : "foreground"
               }
               className="w-full"
-              href="#"
+              href={item.href}
               size="lg"
             >
-              {item}
+              {item.displayText}
             </Link>
           </NavbarMenuItem>
         ))}
