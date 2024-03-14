@@ -20,12 +20,11 @@ const Navigation = () => {
   const navString = isLoggedIn ? "Logout" : "Login";
 
   const menuItems = [
-    { displayText: "Home", href: "#" },
-    { displayText: "Projects", href: "#" },
-    { displayText: "About", href: "#" },
-    { displayText: "Contact Me", href: "#" },
-    { displayText: "Blog", href: "#" },
-    { displayText: navString, href: "#" },
+    { displayText: "Home", href: "/" },
+    { displayText: "Projects", href: "/projects" },
+    { displayText: "About", href: "/about" },
+    { displayText: "Contact Me", href: "/contact" },
+    { displayText: "Blog", href: "/blog" },
   ];
 
   return (
@@ -47,7 +46,7 @@ const Navigation = () => {
 
         <NavbarBrand className="text-2xl font-bold ">
           <Link
-            href="#"
+            href="/"
             style={{
               textShadow: "4px 4px 1px rgba(57, 203, 203, 0.71)",
               border: "2px solid rgba(57, 203, 203, 0.71)",
