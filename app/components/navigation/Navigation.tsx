@@ -82,7 +82,7 @@ const Navigation = () => {
             className="hover:bg-black hover:text-white"
             as={Link}
             color="default"
-            href="#"
+            href="/login"
             variant="shadow"
           >
             {navString}
