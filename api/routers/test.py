@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from ..models.to_do import ToDo
-from ..database import SessionLocal
+from ..database.database import SessionLocal
 
 
 

@@ -1,0 +1,1 @@
+from api.database.base_class import Base

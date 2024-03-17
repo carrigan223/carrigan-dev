@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
-from ..database import Base
+from ..database.base_class import Base
 from ..schemas.to_do import ToDo as ToDoSchema
 
 

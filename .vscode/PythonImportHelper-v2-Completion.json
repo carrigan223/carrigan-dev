@@ -1,6 +1,14 @@
 [
     {
-        "label": "Column",
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -8,71 +16,7 @@
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
+        "label": "pool",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -88,35 +32,172 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.base",
+        "description": "database.base",
+        "isExtraImport": true,
+        "detail": "database.base",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "api.database.base_class",
+        "description": "api.database.base_class",
+        "isExtraImport": true,
+        "detail": "api.database.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "api.database.base_class",
+        "description": "api.database.base_class",
+        "isExtraImport": true,
+        "detail": "api.database.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "as_declarative",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declared_attr",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
         "documentation": {}
     },
     {
@@ -128,11 +209,43 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "api.database",
-        "description": "api.database",
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "api.database",
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "api.core.config",
+        "description": "api.core.config",
+        "isExtraImport": true,
+        "detail": "api.core.config",
         "documentation": {}
     },
     {
@@ -200,14 +313,6 @@
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
         "label": "create_user",
         "kind": 2,
         "importPath": "api.actions.user.user",
@@ -241,6 +346,96 @@
         "description": "api.actions.user.user",
         "peekOfCode": "def delete_user(user_id):\n    user = User.objects.get(id=user_id)\n    user.delete()",
         "detail": "api.actions.user.user",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "api.alembic.env",
+        "description": "api.alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "api.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "api.alembic.env",
+        "description": "api.alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "api.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "api.alembic.env",
+        "description": "api.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\nconfig.set_main_option(\"sqlalchemy.url\", settings.DB_URL)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "api.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "api.alembic.env",
+        "description": "api.alembic.env",
+        "peekOfCode": "target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "api.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "api.core.config",
+        "description": "api.core.config",
+        "peekOfCode": "class Settings:\n    PROJECT_NAME:str = \"carrigan-dev API 🔥\"\n    PROJECT_VERSION: str = \"1.0.0\"\n    DB_CONNECTION = os.getenv('DB_CONNECTION')\n    DB_HOST = os.getenv('DB_HOST')\n    DB_PORT = os.getenv('DB_PORT')\n    DB_DATABASE =   os.getenv('DB_DATABASE')\n    DB_USERNAME = os.getenv('DB_USERNAME')\n    DB_PASSWORD = os.getenv('DB_PASSWORD')\n    DB_URL = f\"{DB_CONNECTION}://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_DATABASE}\"",
+        "detail": "api.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "api.core.config",
+        "description": "api.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "api.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "api.database.base_class",
+        "description": "api.database.base_class",
+        "peekOfCode": "class Base:\n    id: Any\n    __name__: str\n    #to generate tablename from classname\n    @declared_attr\n    def __tablename__(cls) -> str:\n        return cls.__name__.lower()",
+        "detail": "api.database.base_class",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "api.database.database",
+        "description": "api.database.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "api.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "api.database.database",
+        "description": "api.database.database",
+        "peekOfCode": "engine = create_engine(settings.DB_URL, echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "api.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "api.database.database",
+        "description": "api.database.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "api.database.database",
         "documentation": {}
     },
     {
@@ -361,48 +556,21 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
+        "label": "create_tables",
         "kind": 2,
-        "importPath": "api.database",
-        "description": "api.database",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database",
+        "importPath": "api.index",
+        "description": "api.index",
+        "peekOfCode": "def create_tables():         \n\tBase.metadata.create_all(bind=engine)\ndef start_application():\n    app = FastAPI(title=settings.PROJECT_NAME,version=settings.PROJECT_VERSION)\n    create_tables()\n    return app\n# Start FastAPI\napp = start_application()\n# Include routers\napp.include_router(test.router)",
+        "detail": "api.index",
         "documentation": {}
     },
     {
-        "label": "DB_URL",
-        "kind": 5,
-        "importPath": "api.database",
-        "description": "api.database",
-        "peekOfCode": "DB_URL = \"postgresql://postgres:BFC54da-bAD-D2A2a5gebD3b6faGf6b4@viaduct.proxy.rlwy.net:55389/railway\"\nengine = create_engine(DB_URL, echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "kind": 5,
-        "importPath": "api.database",
-        "description": "api.database",
-        "peekOfCode": "engine = create_engine(DB_URL, echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "kind": 5,
-        "importPath": "api.database",
-        "description": "api.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 5,
-        "importPath": "api.database",
-        "description": "api.database",
-        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database",
+        "label": "start_application",
+        "kind": 2,
+        "importPath": "api.index",
+        "description": "api.index",
+        "peekOfCode": "def start_application():\n    app = FastAPI(title=settings.PROJECT_NAME,version=settings.PROJECT_VERSION)\n    create_tables()\n    return app\n# Start FastAPI\napp = start_application()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
+        "detail": "api.index",
         "documentation": {}
     },
     {
@@ -410,7 +578,7 @@
         "kind": 5,
         "importPath": "api.index",
         "description": "api.index",
-        "peekOfCode": "app = FastAPI()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
+        "peekOfCode": "app = start_application()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
         "detail": "api.index",
         "documentation": {}
     }

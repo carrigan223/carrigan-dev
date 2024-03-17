@@ -5,7 +5,7 @@ from fastapi import APIRouter
 from sqlalchemy.orm import Session
 from ...schemas.user import UserCreate
 from ...models.user import User
-from ...database import get_db
+from ...database.database import get_db
 
 router = APIRouter()
 
