@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     colors: {
       accent: "rgb(57, 203, 203)",
+      mainBg: "rgb(10, 34, 39)",
       transparent: "transparent",
       current: "currentColor",
       black: "#000",
@@ -87,6 +88,11 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      height: {
+        128: "32rem",
+        144: "36rem",
+        screenInner: "calc(100vh - 4.1rem)",
       },
     },
     darkMode: "class",
