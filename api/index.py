@@ -7,12 +7,12 @@ from .database.database import SessionLocal, engine
 from .core.config import settings
 from .database.base import Base
 
-def create_tables():         
-	Base.metadata.create_all(bind=engine)
+# def create_tables():         
+# 	Base.metadata.create_all(bind=engine)
  
 def start_application():
     app = FastAPI(title=settings.PROJECT_NAME,version=settings.PROJECT_VERSION)
-    create_tables()
+    # create_tables()
     return app
 # Start FastAPI
 app = start_application()
