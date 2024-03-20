@@ -1,13 +1,5 @@
 [
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -21,49 +13,6 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "hello_world",
-        "kind": 2,
-        "importPath": "api.routers.test",
-        "description": "api.routers.test",
-        "peekOfCode": "def hello_world():\n    return {\"message\": \"Hello Andrew, from Python!\"}\n@router.get(\"/api/to_do\")\ndef get_to_do_list(db = SessionLocal()):\n    try:\n        todo_list = db.query(ToDo).all()\n    finally:\n        db.close()\n    return todo_list",
-        "detail": "api.routers.test",
-        "documentation": {}
-    },
-    {
-        "label": "get_to_do_list",
-        "kind": 2,
-        "importPath": "api.routers.test",
-        "description": "api.routers.test",
-        "peekOfCode": "def get_to_do_list(db = SessionLocal()):\n    try:\n        todo_list = db.query(ToDo).all()\n    finally:\n        db.close()\n    return todo_list",
-        "detail": "api.routers.test",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "api.routers.test",
-        "description": "api.routers.test",
-        "peekOfCode": "router = APIRouter()\n@router.get(\"/api/python\")\ndef hello_world():\n    return {\"message\": \"Hello Andrew, from Python!\"}\n@router.get(\"/api/to_do\")\ndef get_to_do_list(db = SessionLocal()):\n    try:\n        todo_list = db.query(ToDo).all()\n    finally:\n        db.close()",
-        "detail": "api.routers.test",
         "documentation": {}
     },
     {
