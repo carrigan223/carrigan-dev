@@ -1,222 +1,5 @@
 [
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "api.database.base_class",
-        "description": "api.database.base_class",
-        "isExtraImport": true,
-        "detail": "api.database.base_class",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "api.database.base_class",
-        "description": "api.database.base_class",
-        "isExtraImport": true,
-        "detail": "api.database.base_class",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "as_declarative",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "declared_attr",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "api.core.config",
-        "description": "api.core.config",
-        "isExtraImport": true,
-        "detail": "api.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -241,19 +24,11 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -262,96 +37,6 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Settings",
-        "kind": 6,
-        "importPath": "api.core.config",
-        "description": "api.core.config",
-        "peekOfCode": "class Settings:\n    PROJECT_NAME:str = \"carrigan-dev API 🔥\"\n    PROJECT_VERSION: str = \"1.0.0\"\n    DB_CONNECTION = os.getenv('DB_CONNECTION')\n    DB_HOST = os.getenv('DB_HOST')\n    DB_PORT = os.getenv('DB_PORT')\n    DB_DATABASE =   os.getenv('DB_DATABASE')\n    DB_USERNAME = os.getenv('DB_USERNAME')\n    DB_PASSWORD = os.getenv('DB_PASSWORD')\n    DB_URL = f\"{DB_CONNECTION}://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_DATABASE}\"",
-        "detail": "api.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "kind": 5,
-        "importPath": "api.core.config",
-        "description": "api.core.config",
-        "peekOfCode": "settings = Settings()",
-        "detail": "api.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "kind": 6,
-        "importPath": "api.database.base_class",
-        "description": "api.database.base_class",
-        "peekOfCode": "class Base:\n    id: Any\n    __name__: str\n    #to generate tablename from classname\n    @declared_attr\n    def __tablename__(cls) -> str:\n        return cls.__name__.lower()",
-        "detail": "api.database.base_class",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "kind": 2,
-        "importPath": "api.database.database",
-        "description": "api.database.database",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database.database",
-        "documentation": {}
-    },
-    {
-        "label": "engine",
-        "kind": 5,
-        "importPath": "api.database.database",
-        "description": "api.database.database",
-        "peekOfCode": "engine = create_engine(settings.DB_URL, echo=True)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database.database",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "kind": 5,
-        "importPath": "api.database.database",
-        "description": "api.database.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "api.database.database",
-        "documentation": {}
-    },
-    {
-        "label": "ToDo",
-        "kind": 6,
-        "importPath": "api.models.to_do",
-        "description": "api.models.to_do",
-        "peekOfCode": "class ToDo(Base):\n    __tablename__ = \"to_do\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)\n    date_started = Column(String, index=True)\n    date_completed = Column(String, index=True)\n    time_to_complete = Column(String, index=True)\n    complete = Column(Boolean, default=False)\n    started = Column(Boolean, default=False)",
-        "detail": "api.models.to_do",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 6,
-        "importPath": "api.models.user",
-        "description": "api.models.user",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    email = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    is_active = Column(Boolean, default=True)\n    phone = Column(String, unique=True, index=True)\n    uuid = Column(String, unique=True, index=True)\n    street_address = Column(String, index=True)",
-        "detail": "api.models.user",
-        "documentation": {}
-    },
-    {
-        "label": "create_user",
-        "kind": 2,
-        "importPath": "api.routers.user.user",
-        "description": "api.routers.user.user",
-        "peekOfCode": "def create_user( user: UserCreate, db: Session = Depends(get_db)):\n    user.password = user.password + \"notreallyhashed\"\n    db_user = User(\n        username=user.username,\n        email=user.email, \n        hashed_password=user.password, \n        phone=user.phone, \n        uuid=user.uuid, \n        street_address=user.street_address, \n        apt=user.apt, ",
-        "detail": "api.routers.user.user",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "api.routers.user.user",
-        "description": "api.routers.user.user",
-        "peekOfCode": "router = APIRouter()\n@router.post(\"/api/user\")\ndef create_user( user: UserCreate, db: Session = Depends(get_db)):\n    user.password = user.password + \"notreallyhashed\"\n    db_user = User(\n        username=user.username,\n        email=user.email, \n        hashed_password=user.password, \n        phone=user.phone, \n        uuid=user.uuid, ",
-        "detail": "api.routers.user.user",
         "documentation": {}
     },
     {
@@ -382,65 +67,11 @@
         "documentation": {}
     },
     {
-        "label": "ToDoBase",
-        "kind": 6,
-        "importPath": "api.schemas.to_do",
-        "description": "api.schemas.to_do",
-        "peekOfCode": "class ToDoBase(BaseModel):\n    name: str\n    description: str\n    date_started: str\n    date_completed: str\n    time_to_complete: str\n    complete: bool\n    started: bool\n    notes: str\n    status: str",
-        "detail": "api.schemas.to_do",
-        "documentation": {}
-    },
-    {
-        "label": "ToDoCreate",
-        "kind": 6,
-        "importPath": "api.schemas.to_do",
-        "description": "api.schemas.to_do",
-        "peekOfCode": "class ToDoCreate(ToDoBase):\n    pass\nclass ToDo(ToDoBase):\n    id: int\n    name: str\n    description: str\n    date_started: str\n    date_completed: str\n    time_to_complete: str\n    complete: bool",
-        "detail": "api.schemas.to_do",
-        "documentation": {}
-    },
-    {
-        "label": "ToDo",
-        "kind": 6,
-        "importPath": "api.schemas.to_do",
-        "description": "api.schemas.to_do",
-        "peekOfCode": "class ToDo(ToDoBase):\n    id: int\n    name: str\n    description: str\n    date_started: str\n    date_completed: str\n    time_to_complete: str\n    complete: bool\n    started: bool\n    notes: str",
-        "detail": "api.schemas.to_do",
-        "documentation": {}
-    },
-    {
-        "label": "UserBase",
-        "kind": 6,
-        "importPath": "api.schemas.user",
-        "description": "api.schemas.user",
-        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: str\n    password: str\n    phone: str\n    uuid: str\n    street_address: str\n    apt: str\n    city: str\n    state: str",
-        "detail": "api.schemas.user",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreate",
-        "kind": 6,
-        "importPath": "api.schemas.user",
-        "description": "api.schemas.user",
-        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass User(UserBase):\n    id: int\n    is_active: bool\n    # to_dos: list[ToDo] = []\n    class Config:\n        orm_mode = True",
-        "detail": "api.schemas.user",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 6,
-        "importPath": "api.schemas.user",
-        "description": "api.schemas.user",
-        "peekOfCode": "class User(UserBase):\n    id: int\n    is_active: bool\n    # to_dos: list[ToDo] = []\n    class Config:\n        orm_mode = True",
-        "detail": "api.schemas.user",
-        "documentation": {}
-    },
-    {
         "label": "start_application",
         "kind": 2,
         "importPath": "api.index",
         "description": "api.index",
-        "peekOfCode": "def start_application():\n    app = FastAPI(title=settings.PROJECT_NAME,version=settings.PROJECT_VERSION)\n    # create_tables()\n    return app\n# Start FastAPI\napp = start_application()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
+        "peekOfCode": "def start_application():\n    app = FastAPI()\n    # create_tables()\n    return app\n# Start FastAPI\napp = start_application()\n# Include routers\napp.include_router(test.router)",
         "detail": "api.index",
         "documentation": {}
     },
@@ -449,7 +80,7 @@
         "kind": 5,
         "importPath": "api.index",
         "description": "api.index",
-        "peekOfCode": "app = start_application()\n# Include routers\napp.include_router(test.router)\napp.include_router(user_router.router)",
+        "peekOfCode": "app = start_application()\n# Include routers\napp.include_router(test.router)",
         "detail": "api.index",
         "documentation": {}
     }
