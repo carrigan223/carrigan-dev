@@ -2,8 +2,8 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers";
 import Navigation from "./components/navigation/Navigation";
-import Script from "next/script";
 import Head from "next/head";
+import ChatbotScript from "./components/chatbot/ChatbotScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,19 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Script
-        async
-        src="https://ripe.chat/islands/client-chat-button.island.umd.js"
-        //@ts-ignore
-        chatbotId="100"
-        domain="carrigan.dev"
-      />
+      
       <body className="flex-col h-screen">
-        {
-          //@ts-ignore
-          <client-chat-button-island></client-chat-button-island>
-        }
-
+       
+      <ChatbotScript
+            chatbotId="100"
+            domain="https://carrigan.dev"
+          />
         <Navigation />
         <Providers>{children}</Providers>
       </body>
