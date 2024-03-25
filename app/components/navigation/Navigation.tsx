@@ -22,9 +22,7 @@ const Navigation = () => {
   const menuItems = [
     { displayText: "Home", href: "/" },
     { displayText: "Projects", href: "/projects" },
-    { displayText: "About", href: "/about" },
-    { displayText: "Contact Me", href: "/contact" },
-    { displayText: "Blog", href: "/blog" },
+    // { displayText: "Resume", href: "/resume" },
   ];
 
   return (

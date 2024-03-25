@@ -21,11 +21,6 @@ export default function RootLayout({
     <html lang="en">
       
       <body className="flex-col h-screen">
-       
-      <ChatbotScript
-            chatbotId="88"
-            domain="https://carrigan.dev"
-          />
         <Navigation />
         <Providers>{children}</Providers>
       </body>
