@@ -17,15 +17,19 @@ const ProjectCard = ({
   github_link,
 }: ProjectCardProps) => {
   return (
-    <Card isFooterBlurred radius="lg" className="border-2 rounded shadow-md shadow-accent/50 h-3/4 sm:h-full">
+    <Card
+      isFooterBlurred
+      radius="lg"
+      className="m-4 border-2 rounded shadow-md  shadow-accent/50 sm:h-full"
+    >
       <Image
-        style={{
-          height: "100%",
-          width: "100%",
-          objectFit: "cover",
-        }}
         alt="Woman listing to music"
         src={image}
+        style={{
+          objectFit: "cover",
+          width: "full",
+          height: "full",
+        }}
       />
 
       <CardFooter

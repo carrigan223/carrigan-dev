@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { Providers } from "./providers";
 import Navigation from "./components/navigation/Navigation";
 import Head from "next/head";
-import ChatbotScript from "./components/chatbot/ChatbotScript";
+import ChatbotScript from "./utils/ChatBotScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
       <body className="flex-col h-screen">
         <Navigation />
         <Providers>{children}</Providers>
       </body>
+      <ChatbotScript chatbotId="97" domain="carrigan.dev" />
     </html>
   );
 }
