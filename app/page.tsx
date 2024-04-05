@@ -13,19 +13,19 @@ export default function Home() {
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
 
-  useEffect(() => {
-    setLoading(true);
-    axios
-      .get("/api/python")
-      .then((response) => {
-        setData(response.data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        setError(error);
-        setLoading(false);
-      });
-  }, []);
+  // useEffect(() => {
+    // setLoading(true);
+    //   axios
+    //     .get("/api/python")
+    //     .then((response) => {
+    //       setData(response.data);
+    //       setLoading(false);
+    //     })
+    //     .catch((error) => {
+    //       setError(error);
+    //       setLoading(false);
+    //     });
+  // }, []);
   return (
     <main className="flex flex-col w-full h-full">
       <div className="flex flex-col sm:flex-row">
