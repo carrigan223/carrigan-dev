@@ -1,12 +1,16 @@
-'use client';
+"use client";
 import { useEffect } from "react";
 
 const ChatbotScript = ({
   chatbotId,
   domain,
+  env,
+  islandType,
 }: {
   chatbotId: string;
   domain: string;
+  env?: string;
+  islandType?: string;
 }) => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -14,6 +18,8 @@ const ChatbotScript = ({
     script.async = true;
     script.setAttribute("chatbotId", chatbotId);
     script.setAttribute("domain", domain);
+    script.setAttribute("env", env ?? "dev");
+    script.setAttribute("islandType", islandType ?? "button");
     document.head.appendChild(script);
 
     const chatButtonElement = document.createElement(
@@ -26,7 +32,7 @@ const ChatbotScript = ({
       document.head.removeChild(script);
       document.body.removeChild(chatButtonElement);
     };
-  }, [chatbotId, domain]);
+  }, [chatbotId, domain, env, islandType]);
 
   return null;
 };

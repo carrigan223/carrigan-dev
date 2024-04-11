@@ -23,7 +23,7 @@ export default function RootLayout({
         <Navigation />
         <Providers>{children}</Providers>
       </body>
-      <ChatbotScript chatbotId="97" domain="carrigan.dev" />
+      <ChatbotScript chatbotId="97" domain="carrigan.dev" env='dev' islandType="button" />
     </html>
   );
 }
